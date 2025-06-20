@@ -1,0 +1,28 @@
+.category-picker-wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  margin-top: 1rem;
+  max-width: 1280px;
+}
+
+.category-picker-dropdown-wrapper .dropdown-select-container {
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+  .category-picker-wrapper {
+    margin-top: 1.75rem;
+  }
+
+  .category-picker-dropdown-wrapper .dropdown-select-container {
+    width: 15rem;
+  }
+}

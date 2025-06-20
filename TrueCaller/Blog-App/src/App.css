@@ -1,0 +1,4 @@
+.blog-app-wrapper {
+  min-height: 100vh !important;
+  position: relative;
+}

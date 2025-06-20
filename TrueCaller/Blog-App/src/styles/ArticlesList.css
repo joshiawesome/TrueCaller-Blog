@@ -1,0 +1,30 @@
+.articles-list-wrapper {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.articles-list-wrapper .empty-text {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+
+.articles-list-wrapper:has(.empty-text) {
+  display: block !important;
+}
+
+@media (min-width: 768px) {
+  .articles-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-gap: 1.25rem;
+    gap: 1.25rem;
+    width: 100%;
+
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,25 @@
+.dropdown-wrapper {
+  width: 100%;
+}
+
+.dropdown-select-container {
+  height: 40px;
+  border: 1px solid #f1f2f6;
+  background: #ffffff;
+  padding-left: 15px;
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  background-image: url("../assets/down-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+  outline: none;
+}
+
+.dropdown-select-container:focus {
+  box-shadow: none;
+  outline: none;
+}
